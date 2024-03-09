@@ -18,10 +18,10 @@ function App() {
       <form onSubmit={handleSubmit(submit)}>
        <div className=" mb-4">
        <div className=" mb-2">
-          <input className="bg-blue-100 border-solid border-2 border-blue-400 outline-0" {...register("First name", )} type="text" />
+          <input className="bg-blue-100 border-solid border-2 border-blue-400 outline-0" {...register("firstname")} type="text" />
           </div>
         <div>
-          <input className=" bg-blue-100 border-solid border-2 border-blue-400 outline-0" {...register("Last name", )} type="text" />
+          <input className=" bg-blue-100 border-solid border-2 border-blue-400 outline-0" {...register("lastname")} type="text" />
         </div>
        </div>
         <button className=" p-3 bg-red-200">Add</button>
